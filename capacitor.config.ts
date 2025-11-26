@@ -1,9 +1,12 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'gwanak-gpt-app',
-  webDir: 'dist'
+  appId: 'com.gwanak.gptapp',
+  appName: 'Gwanak GPT',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'https'
+  }
 };
 
 export default config;
